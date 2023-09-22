@@ -1,8 +1,10 @@
-public class Task {
-    private String title; //* titulo das tarefas */
-    private boolean taskStatus; //* status da tarefa, concluida ou nao concluida */
-    private int priority; //* prioridade da tarefa (nao sei como fazer isso ainda) */
+package utilities;
 
+public class Task {
+    private String title;
+    private boolean taskStatus;
+    private int priority;
+    
     //*getters e setters
     public void setStatus (boolean status) {
         this.taskStatus = status;

@@ -1,12 +1,17 @@
-//! import java.util.ArrayList;
+package utilities;
 
+import java.util.ArrayList;
 
 public class ToDo {
-    private int finishedTasks; //* quantidade de tarefas terminadas */
-    private int unfinishedTasks; //* quantidade de tarefas nao terminadas */
-    private int tasksAmount; //* quantidade total de tarefas */
+    private ArrayList<Task> Tasks;
 
-    //! ArrayList <Task> test;
+    private int finishedTasks;
+    private int unfinishedTasks;
+    private int tasksAmount;
+
+    public static void main(String[] args) {
+    }
+
     //* getters e setters */
     public int getFinishedTasks() {
         return finishedTasks;
@@ -26,6 +31,4 @@ public class ToDo {
     public void setUnfinishedTasks(int unfinishedTasks) {
         this.unfinishedTasks = unfinishedTasks;
     }
-
-    //*métodos */
 }

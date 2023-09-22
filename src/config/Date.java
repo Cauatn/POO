@@ -1,4 +1,4 @@
-package Utilities;
+package config;
 
 public class Date {
     private int day;
