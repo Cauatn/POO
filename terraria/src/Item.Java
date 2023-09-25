@@ -1,3 +1,5 @@
+import Items.*;
+
 public class Item {
-    String Tipo;
+    Undefined Tipo;
 }
