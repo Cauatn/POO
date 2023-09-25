@@ -1,3 +1,5 @@
+package src;
+
 public class World {
     String Nome;
     int Seed;

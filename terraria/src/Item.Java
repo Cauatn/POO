@@ -1,5 +1,6 @@
-import Items.*;
+package src;
+import src.Items.*;
 
 public class Item {
-    Undefined Tipo;
+    Void Tipo;
 }

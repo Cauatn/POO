@@ -1,7 +1,9 @@
-import Items.armas.*;
+package src.Items;
+
+import src.Items.Armas.*;
 
 public class Arma {
-    Undefined Tipo;
+    Void Tipo;
 
     int Dano;
     int KnockBack;

@@ -1,4 +1,7 @@
-import Efeitos.*;
+package src;
+
+import src.Efeitos.*;
+import java.util.ArrayList;
 
 public class Boss {
     String Ambiente_Spawn;
@@ -7,5 +10,5 @@ public class Boss {
     int Defesa;
     int KnockBack_Resist;
 
-    int ArrayList<Efeito> Imune;
+    ArrayList<String> imune;
 }
