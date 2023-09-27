@@ -1,7 +1,7 @@
 import src.*;
 import src.Personagem.*;
 
-public class GoblinTrader extends Npc {
+public class Zoologista extends Npc {
     Inventario Inventario;
     
     public static void main(String [] args){

@@ -5,7 +5,8 @@ public class GoblinTrader extends Npc {
     Inventario Inventario;
     
     public static void main(String [] args){
-        System.out.println("Oii");
+        GoblinTrader p = new GoblinTrader();
+        System.out.println(p.toString());
     }
 
 }
