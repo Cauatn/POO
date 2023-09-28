@@ -1,5 +1,5 @@
-package Blocos.OtherFoundBlocks;
-import Blocos.*;
+package src.Blocos.OtherFoundBlocks;
+import src.Blocos.*;
 
 public class OtherFoundBlocks extends Bloco {
     String ambiente;

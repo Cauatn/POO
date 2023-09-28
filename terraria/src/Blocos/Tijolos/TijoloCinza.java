@@ -1,4 +1,4 @@
-package Blocos.Tijolos;
+package src.Blocos.Tijolos;
 
 public class TijoloCinza extends Tijolos {
     

@@ -1,4 +1,4 @@
-package Blocos;
+package src.Blocos;
 
 public class Bloco {
     protected String nome;

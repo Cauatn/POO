@@ -1,8 +1,8 @@
-import src.*;
-import src.Personagem.*;
+package src.Npcs.PreHardmode;
 
-public class Pintor extends Npc {
-    Inventario Inventario;
+import src.*;
+
+public class Druida extends Npc {
     
     public static void main(String [] args){
         System.out.println("Oii");

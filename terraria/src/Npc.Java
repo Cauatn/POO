@@ -1,6 +1,6 @@
 package src;
 
-import src.Personagem.*;
+import src.Personagem.Inventario;
 
 public class Npc {
     int Vida;
