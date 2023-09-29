@@ -1,7 +1,7 @@
 package src.Blocos.OtherFoundBlocks;
 import src.Blocos.*;
 
-public class OtherFoundBlocks extends Bloco {
+public abstract class OtherFoundBlocks extends Bloco {
     String ambiente;
     boolean looteavel;
     boolean craftavel;
