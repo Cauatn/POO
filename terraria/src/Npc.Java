@@ -3,6 +3,7 @@ package src;
 import src.Personagem.Inventario;
 
 public class Npc {
+
     int Vida;
     int Dano;
     int Defesa;
