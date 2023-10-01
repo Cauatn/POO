@@ -1,7 +1,5 @@
 package src.Items;
 
-import src.Items.Armas.*;
-
 public class Arma {
     Void Tipo;
 
