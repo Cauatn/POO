@@ -11,6 +11,5 @@ public class Player {
     int Horas_De_Jogo;
 
     public static void main(String [] args) {
-        System.out.println("oi");
     }
 }

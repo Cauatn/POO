@@ -1,6 +1,6 @@
-package Blocos;
+package src.Blocos;
 
-public class Bloco {
+public abstract class Bloco {
     protected String nome;
     protected int id;
 }

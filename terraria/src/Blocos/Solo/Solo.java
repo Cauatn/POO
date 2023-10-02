@@ -1,6 +1,6 @@
-package Blocos.Solo;
-import Blocos.*;
+package src.Blocos.Solo;
+import src.Blocos.*;
 
-public class Solo extends Bloco {
+public abstract class Solo extends Bloco {
     boolean conversivel;
 }

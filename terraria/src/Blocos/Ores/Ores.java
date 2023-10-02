@@ -1,7 +1,7 @@
-package Blocos.Ores;
-import Blocos.*;
+package src.Blocos.Ores;
+import src.Blocos.*;
 
-public class Ores extends Bloco {
+public abstract class Ores extends Bloco {
     String mineradoCom;
     boolean explodivel;    
 }

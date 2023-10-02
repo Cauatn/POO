@@ -9,4 +9,15 @@ public class Espada {
     int Venda;
     Void Tooltip;
 
+    String Ataque;
+
+    public static void main(String [] arg){
+
+        return;
+    }
+
+    public String Atacar(){
+        return "Ataque Normal";
+    }
+
 }

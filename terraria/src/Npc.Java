@@ -1,8 +1,9 @@
 package src;
 
-import src.Personagem.*;
+import src.Personagem.Inventario;
 
 public class Npc {
+
     int Vida;
     int Dano;
     int Defesa;
@@ -12,6 +13,13 @@ public class Npc {
     Inventario Inventario;
 
     public static void main(String [] args){
-        System.out.println("Oii");
+        Npc p = new Npc();
+        Player a = new Player();
+        System.out.println(p.toString());
+        System.out.println(a.toString());
+    }
+
+    public String toString(){
+        return "asd";
     }
 }

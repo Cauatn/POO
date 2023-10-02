@@ -1,4 +1,4 @@
-package Blocos.GrownBlocks;
+package src.Blocos.GrownBlocks;
 
 public class Bambu extends GrownBlocks {
 }

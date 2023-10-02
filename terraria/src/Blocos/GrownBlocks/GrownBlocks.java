@@ -1,7 +1,8 @@
-package Blocos.GrownBlocks;
-import Blocos.*;
+package src.Blocos.GrownBlocks;
 
-public class GrownBlocks extends Bloco {
+import src.Blocos.*;
+
+public abstract class GrownBlocks extends Bloco {
     String ambiente;
     String dropaddoPor;
 }
