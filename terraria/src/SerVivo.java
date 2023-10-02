@@ -1,6 +1,6 @@
 package src;
 
-abstract class SerVivo {
+public abstract class SerVivo {
     int vida;
     int dano;
     int defesa;
