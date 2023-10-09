@@ -10,6 +10,4 @@ public class Player extends SerVivo{
 
     int Horas_De_Jogo;
 
-    public static void main(String [] args) {
-    }
 }
