@@ -1,11 +1,11 @@
 package src;
 
 public abstract class SerVivo {
-    int vida;
-    int dano;
-    int defesa;
-    int level;
-    int id;
+    public int vida;
+    private int dano;
+    private int defesa;
+    private int level;
+    private int id;
     
     public int getVida() {
         return vida;

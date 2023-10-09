@@ -9,16 +9,4 @@ public class Npc extends SerVivo{
 
     Inventario Inventario;
 
-    
-}
-
-public static void main(String [] args){
-    Npc p = new Npc();
-    Player a = new Player();
-    System.out.println(p.toString());
-    System.out.println(a.toString());
-}
-
-public String toString(){
-    return "asd";
 }
