@@ -15,12 +15,12 @@ public class MadeiraViva extends OtherFoundBlocks {
 
     @Override
     public String quebrar() {
-        return "ll";
+        return "Madeira Viva Quebrada";
     }
 
     @Override
     public String colocar() {
-        return "ll";
+        return "Madeira Viva Colocada";
     }
 
 }

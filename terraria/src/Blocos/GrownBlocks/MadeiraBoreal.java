@@ -12,11 +12,11 @@ public class MadeiraBoreal extends GrownBlocks{
 
     @Override
     public String quebrar() {
-        return "ll";
+        return "Madeira Boreal Quebrada";
     }
 
     @Override
     public String colocar() {
-        return "ll";
+        return "Madeira Boreal Colocada";
     }
 }

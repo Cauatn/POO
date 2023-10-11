@@ -13,11 +13,11 @@ public class GeloFino extends OtherFoundBlocks {
 
     @Override
     public String quebrar() {
-        return "ll";
+        return "Gelo Fino Quebrado";
     }
 
     @Override
     public String colocar() {
-        return "ll";
+        return "Gelo Fino Colocado";
     }
 }

@@ -12,11 +12,11 @@ public class Bambu extends GrownBlocks {
 
     @Override
     public String quebrar() {
-        return "ll";
+        return "Bambu quebrado";
     }
 
     @Override
     public String colocar() {
-        return "ll";
+        return "Bambu Colocado";
     }
 }

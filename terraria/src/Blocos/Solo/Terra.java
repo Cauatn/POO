@@ -12,11 +12,11 @@ public class Terra extends Solo {
 
     @Override
     public String quebrar() {
-        return "mm";
+        return "Terra Quebrada";
     }
 
     @Override
     public String colocar() {
-        return "ii";
+        return "Terra Colocada";
     }
 }

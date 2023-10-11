@@ -12,11 +12,11 @@ public class Areia extends Solo {
 
     @Override
     public String quebrar() {
-        return "mm";
+        return "Areia Quebrada";
     }
 
     @Override
     public String colocar() {
-        return "ii";
+        return "Areia Colocada";
     }
 }

@@ -12,11 +12,11 @@ public class Tungstenio extends Ores {
 
     @Override
     public String quebrar() {
-        return "ll";
+        return "Ore de Tungstenio Quebrado";
     }
 
     @Override
     public String colocar() {
-        return "ll";
+        return "Ore de Tungstenio Colocado";
     }
 }

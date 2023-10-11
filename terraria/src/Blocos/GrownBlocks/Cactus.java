@@ -12,11 +12,11 @@ public class Cactus extends GrownBlocks {
 
     @Override
     public String quebrar() {
-        return "ll";
+        return "Cacto quebrado";
     }
 
     @Override
     public String colocar() {
-        return "ll";
+        return "Cacto Colocado";
     }
 }

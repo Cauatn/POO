@@ -12,11 +12,11 @@ public class Feno extends GrownBlocks {
 
     @Override
     public String quebrar() {
-        return "ll";
+        return "Feno quebrado";
     }
 
     @Override
     public String colocar() {
-        return "ll";
+        return "Feno colocado";
     }
 }

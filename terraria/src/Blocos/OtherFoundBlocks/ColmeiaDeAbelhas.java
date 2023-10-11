@@ -13,11 +13,11 @@ public class ColmeiaDeAbelhas extends OtherFoundBlocks {
 
     @Override
     public String quebrar() {
-        return "ll";
+        return "Colmeia de Abelhas Quebrada";
     }
 
     @Override
     public String colocar() {
-        return "ll";
+        return "Colmeia de Abelhas Colocada";
     }
 }

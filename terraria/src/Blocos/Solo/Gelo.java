@@ -12,11 +12,11 @@ public class Gelo extends Solo {
 
     @Override
     public String quebrar() {
-        return "mm";
+        return "Gelo Quebrado";
     }
 
     @Override
     public String colocar() {
-        return "ii";
+        return "Gelo Colocado";
     }
 }

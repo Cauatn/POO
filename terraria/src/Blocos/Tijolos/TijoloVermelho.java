@@ -12,10 +12,10 @@ public class TijoloVermelho extends Tijolos {
 
     @Override
     public String quebrar() {
-        return "ww";
+        return "Tijolo Vermelho Quebrado";
     }
     @Override
     public String colocar() {
-        return "lpp";
+        return "Tijolo Vermelho Colocado";
     }
 }

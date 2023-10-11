@@ -12,11 +12,11 @@ public class Barro extends Solo {
 
     @Override
     public String quebrar() {
-        return "mm";
+        return "Barro Quebrado";
     }
 
     @Override
     public String colocar() {
-        return "ii";
+        return "Barro Colocado";
     }
 }

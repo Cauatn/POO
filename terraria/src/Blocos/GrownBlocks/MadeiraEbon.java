@@ -12,11 +12,11 @@ public class MadeiraEbon extends GrownBlocks {
 
     @Override
     public String quebrar() {
-        return "ll";
+        return "Madeira Ebon Quebrada";
     }
 
     @Override
     public String colocar() {
-        return "ll";
+        return "Madeira Ebon Colocada";
     }
 }

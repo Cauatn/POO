@@ -13,11 +13,11 @@ public class BlocoDeFolha extends OtherFoundBlocks {
 
     @Override
     public String quebrar() {
-        return "ll";
+        return "Bloco de Folha Quebrado";
     }
 
     @Override
     public String colocar() {
-        return "ll";
+        return "Bloco de Folha Colocado";
     }
 }

@@ -12,11 +12,11 @@ public class TijoloDeGelo extends Tijolos {
     
     @Override
     public String quebrar() {
-        return "ll";
+        return "Tijolo de Gelo Quebrado";
     }
 
     @Override
     public String colocar() {
-        return "00";
+        return "Tijolo de Gelo Colocado";
     }
 }

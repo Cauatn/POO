@@ -12,11 +12,11 @@ public class Platina extends Ores {
 
     @Override
     public String quebrar() {
-        return "ll";
+        return "Ore de Platina Quebrado";
     }
 
     @Override
     public String colocar() {
-        return "ll";
+        return "Ore de Platina Colocado";
     }
 }

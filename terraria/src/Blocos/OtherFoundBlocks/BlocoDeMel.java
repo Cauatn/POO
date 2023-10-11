@@ -13,11 +13,11 @@ public class BlocoDeMel extends OtherFoundBlocks {
 
     @Override
     public String quebrar() {
-        return "ll";
+        return "Bloco de Mel Quebrado";
     }
 
     @Override
     public String colocar() {
-        return "ll";
+        return "Bloco de Mel Colocado";
     }
 }

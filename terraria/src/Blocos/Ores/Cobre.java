@@ -12,11 +12,11 @@ public class Cobre extends Ores {
 
     @Override
     public String quebrar() {
-        return "ll";
+        return "Ore de Cobre Quebrado";
     }
 
     @Override
     public String colocar() {
-        return "ll";
+        return "Ore de Cobre Colocado";
     }
 }

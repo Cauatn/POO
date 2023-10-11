@@ -12,11 +12,11 @@ public class Iron extends Ores {
 
     @Override
     public String quebrar() {
-        return "ll";
+        return "Ore de Iron Quebrado";
     }
 
     @Override
     public String colocar() {
-        return "ll";
+        return "Ore de Iron Colocado";
     }
 }
