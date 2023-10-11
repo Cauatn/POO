@@ -4,7 +4,14 @@ import src.Personagem.Inventario;
 
 public class Mob extends SerVivo{
 
-    int Dano_Contato;
-
+    private int Dano_Contato;
+    
     Inventario Inventario;
+
+    public int getDano_Contato() {
+        return Dano_Contato;
+    }
+    public void setDano_Contato(int dano_Contato) {
+        Dano_Contato = dano_Contato;
+    }
 }
