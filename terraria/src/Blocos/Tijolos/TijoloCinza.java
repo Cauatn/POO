@@ -7,7 +7,7 @@ public class TijoloCinza extends Tijolos {
         Random random = new Random();
         setExplosivel(true);
         setId(random.nextInt(9000) + 1000);
-        //setNome(nome);
+        setCraftavel(true);
     }
     
     @Override

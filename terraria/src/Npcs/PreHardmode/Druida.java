@@ -1,6 +1,6 @@
 package src.Npcs.PreHardmode;
 
-import src.*;
+import src.Npcs.Npc;
 
 public class Druida extends Npc{
     

@@ -8,6 +8,7 @@ public class Barro extends Solo {
         Random random = new Random();
         setConversivel(false);
         setId(random.nextInt(9000) + 1000);
+        setCraftavel(false);
     }
 
     @Override

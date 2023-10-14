@@ -8,6 +8,7 @@ public class Gelo extends Solo {
         Random random = new Random();
         setConversivel(true);
         setId(random.nextInt(9000) + 1000);
+        setCraftavel(false);
     }
 
     @Override

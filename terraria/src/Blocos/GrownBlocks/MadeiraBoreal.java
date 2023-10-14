@@ -8,6 +8,7 @@ public class MadeiraBoreal extends GrownBlocks{
         setId(random.nextInt(9000) + 1000);
         setAmbiente("Biomas de Neve");
         setDropaddoPor("Árvores Boreais");
+        setCraftavel(false);
     }
 
     @Override

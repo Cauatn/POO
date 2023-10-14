@@ -1,5 +1,5 @@
 package src.Blocos.Tijolos;
-import src.Blocos.*;
+import src.Blocos.Bloco;
 
 public abstract class Tijolos extends Bloco {
     private boolean explosivel;
@@ -9,5 +9,13 @@ public abstract class Tijolos extends Bloco {
     }
     public boolean getExplosivel(){
         return this.explosivel;
+    }
+    public String craftar(){
+        if(getCraftavel()){
+            return "Item craftável";
+        }
+        else{
+            return "Item não craftável";
+        }
     }
 }

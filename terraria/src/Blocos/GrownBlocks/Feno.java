@@ -8,6 +8,7 @@ public class Feno extends GrownBlocks {
         setId(random.nextInt(9000) + 1000);
         setAmbiente("Todos biomas com grama");
         setDropaddoPor("Grama");
+        setCraftavel(false);
     }
 
     @Override

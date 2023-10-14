@@ -9,6 +9,7 @@ public class ColmeiaDeAbelhas extends OtherFoundBlocks {
         setAmbiente("Colmeia de Abelhas");
         setCraftavel(false);
         setLooteavel(true);
+        setCraftavel(false);
     }
 
     @Override

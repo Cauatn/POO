@@ -1,5 +1,6 @@
-package src;
+package src.Npcs;
 
+import src.SerVivo;
 import src.Personagem.Inventario;
 
 public class Npc extends SerVivo{
@@ -21,6 +22,4 @@ public class Npc extends SerVivo{
     public void setAmbiente(String ambiente) {
         Ambiente = ambiente;
     }
-    
-    
 }

@@ -8,6 +8,7 @@ public class MadeiraCoqueiro extends GrownBlocks {
         setId(random.nextInt(9000) + 1000);
         setAmbiente("Biomas Oceânicos | Desertos");
         setDropaddoPor("Coqueiros");
+        setCraftavel(false);
     }
 
     @Override

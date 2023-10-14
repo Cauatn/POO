@@ -8,6 +8,7 @@ public class Madeira extends GrownBlocks {
         setId(random.nextInt(9000) + 1000);
         setAmbiente("Florestas");
         setDropaddoPor("Árvores");
+        setCraftavel(false);
     }
 
     @Override
