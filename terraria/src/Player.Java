@@ -13,7 +13,7 @@ public class Player extends SerVivo{
         return Vida_Maxima;
     }
 
-    public void setVida_Maxima(int vida_Maxima) {
+    protected void setVida_Maxima(int vida_Maxima) {
         Vida_Maxima = vida_Maxima;
     }
 
@@ -21,7 +21,7 @@ public class Player extends SerVivo{
         return Mana_Maxima;
     }
 
-    public void setMana_Maxima(int mana_Maxima) {
+    protected void setMana_Maxima(int mana_Maxima) {
         Mana_Maxima = mana_Maxima;
     }
 
@@ -29,10 +29,7 @@ public class Player extends SerVivo{
         return Horas_De_Jogo;
     }
 
-    public void setHoras_De_Jogo(int horas_De_Jogo) {
+    protected void setHoras_De_Jogo(int horas_De_Jogo) {
         Horas_De_Jogo = horas_De_Jogo;
     }
-
-
-
 }

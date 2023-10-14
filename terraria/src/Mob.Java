@@ -11,7 +11,7 @@ public class Mob extends SerVivo{
     public int getDano_Contato() {
         return Dano_Contato;
     }
-    public void setDano_Contato(int dano_Contato) {
+    protected void setDano_Contato(int dano_Contato) {
         Dano_Contato = dano_Contato;
     }
 }
