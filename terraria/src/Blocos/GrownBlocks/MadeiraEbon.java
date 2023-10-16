@@ -8,6 +8,7 @@ public class MadeiraEbon extends GrownBlocks {
         setId(random.nextInt(9000) + 1000);
         setAmbiente("A Corrupção");
         setDropaddoPor("Árvores Corruptas");
+        setCraftavel(false);
     }
 
     @Override

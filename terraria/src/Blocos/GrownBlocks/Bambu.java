@@ -8,6 +8,7 @@ public class Bambu extends GrownBlocks {
         setId(random.nextInt(9000) + 1000);
         setAmbiente("Selva");
         setDropaddoPor("Hastes de bambu");
+        setCraftavel(false);
     }
 
     @Override

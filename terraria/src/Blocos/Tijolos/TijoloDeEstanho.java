@@ -7,6 +7,7 @@ public class TijoloDeEstanho extends Tijolos {
         Random random = new Random();
         setExplosivel(true);
         setId(random.nextInt(9000) + 1000);
+        setCraftavel(true);
     }
     
     @Override

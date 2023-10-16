@@ -8,6 +8,7 @@ public class Cactus extends GrownBlocks {
         setId(random.nextInt(9000) + 1000);
         setAmbiente("Deserto");
         setDropaddoPor("Cactus");
+        setCraftavel(false);
     }
 
     @Override

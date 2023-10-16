@@ -2,9 +2,16 @@ package src;
 
 import src.Personagem.Inventario;
 
-public abstract class Mob extends SerVivo{
+public class Mob extends SerVivo{
 
-    int Dano_Contato;
-
+    private int Dano_Contato;
+    
     Inventario Inventario;
+
+    public int getDano_Contato() {
+        return Dano_Contato;
+    }
+    protected void setDano_Contato(int dano_Contato) {
+        Dano_Contato = dano_Contato;
+    }
 }

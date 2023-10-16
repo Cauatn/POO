@@ -9,6 +9,7 @@ public class BlocoDeMel extends OtherFoundBlocks {
         setAmbiente("Selva Subterrânea");
         setCraftavel(true);
         setLooteavel(true);
+        setCraftavel(false);
     }
 
     @Override

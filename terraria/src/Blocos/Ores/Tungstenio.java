@@ -8,6 +8,7 @@ public class Tungstenio extends Ores {
         setId(random.nextInt(9000) + 1000);
         setExplodivel(true);
         setMineradoCom("Cobre | Estanho");
+        setCraftavel(false);
     }
 
     @Override

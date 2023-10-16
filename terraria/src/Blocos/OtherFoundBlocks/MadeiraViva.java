@@ -11,6 +11,7 @@ public class MadeiraViva extends OtherFoundBlocks {
         setAmbiente("Árvore Viva");
         setCraftavel(false);
         setLooteavel(false);
+        setCraftavel(false);
     }
 
     @Override

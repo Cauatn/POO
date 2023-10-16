@@ -9,6 +9,7 @@ public class GeloFino extends OtherFoundBlocks {
         setAmbiente("Neve, Bioma de Gelo");
         setCraftavel(true);
         setLooteavel(false);
+        setCraftavel(false);
     }
 
     @Override

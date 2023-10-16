@@ -1,5 +1,5 @@
 package src;
 
-public abstract class Item {
+public class Item {
     Item Tipo;
 }
