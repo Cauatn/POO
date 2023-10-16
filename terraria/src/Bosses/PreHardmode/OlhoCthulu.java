@@ -1,4 +1,4 @@
-package src.Bosses.PreHarmode;
+package src.Bosses.PreHardmode;
 
 import src.Bosses.Boss;
 
