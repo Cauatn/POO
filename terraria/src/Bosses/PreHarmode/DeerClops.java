@@ -24,4 +24,9 @@ public class DeerClops extends Boss{
     public String damage() {
         return "a";
     }
+    
+    @Override
+    public String walk() {
+        return "b";
+    }
 }

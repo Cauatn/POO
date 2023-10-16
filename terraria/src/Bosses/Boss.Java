@@ -51,4 +51,5 @@ public abstract class Boss extends SerVivo{
 
     public abstract String attack();
     public abstract String damage();
+    public abstract String walk();
 }
