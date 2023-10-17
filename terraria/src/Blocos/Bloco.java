@@ -4,6 +4,7 @@ public abstract class Bloco {
     private String nome;
     private int id;
     private boolean craftavel;
+    private int porcentagemDeMineração;
 
     public int getId() {
         return this.id;

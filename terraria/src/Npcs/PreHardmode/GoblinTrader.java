@@ -16,4 +16,19 @@ public class GoblinTrader extends Npc{
         System.out.println("Oii");
     }
 
+    @Override
+    public void atacar(){
+
+    }
+
+    @Override
+    public void defender(){
+
+    }
+
+    @Override
+    public void movimentar(){
+        
+    }
+
 }

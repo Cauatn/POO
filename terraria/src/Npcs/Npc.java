@@ -1,9 +1,10 @@
 package src.Npcs;
 
+import src.Comportamento;
 import src.SerVivo;
 import src.Personagem.Inventario;
 
-public abstract class Npc extends SerVivo{
+public abstract class Npc extends SerVivo implements Comportamento{
 
     private int KB_Resist;
     private String Ambiente;
@@ -31,5 +32,6 @@ public abstract class Npc extends SerVivo{
     public void setGosta(String gosta) {
         Gosta = gosta;
     }
+
 
 }
