@@ -1,8 +1,9 @@
 package src.Npcs.PreHardmode;
 
+import src.Npcs.Interacoes;
 import src.Npcs.Npc;
 
-public class Guia extends Npc{
+public class Guia extends Npc implements Interacoes{
 
     public Guia(){
         setAmbiente("Qualquer ambiente");
@@ -18,4 +19,8 @@ public class Guia extends Npc{
         System.out.println("Oii");
     }
 
+    @Override
+    public String falar() {
+        return "Guia";
+    }
 }

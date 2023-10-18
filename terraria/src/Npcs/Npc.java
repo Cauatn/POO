@@ -31,5 +31,4 @@ public abstract class Npc extends SerVivo{
     public void setGosta(String gosta) {
         Gosta = gosta;
     }
-
 }

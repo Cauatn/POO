@@ -1,8 +1,9 @@
 package src.Npcs.PreHardmode;
 
+import src.Npcs.Interacoes;
 import src.Npcs.Npc;
 
-public class Zoologista extends Npc{
+public class Zoologista extends Npc implements Interacoes{
 
     public Zoologista(){
         setAmbiente("Qualquer ambiente");
@@ -18,4 +19,8 @@ public class Zoologista extends Npc{
         System.out.println("Oii");
     }
 
+    @Override
+    public String falar() {
+        return "Zoologista";
+    }
 }

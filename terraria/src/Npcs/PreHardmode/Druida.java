@@ -1,8 +1,9 @@
 package src.Npcs.PreHardmode;
 
+import src.Npcs.Interacoes;
 import src.Npcs.Npc;
 
-public class Druida extends Npc{
+public class Druida extends Npc implements Interacoes{
 
     public Druida(){
         setAmbiente("Jungle");
@@ -16,6 +17,11 @@ public class Druida extends Npc{
     
     public static void main(String [] args){
         System.out.println("Oii");
+    }
+
+    @Override
+    public String falar() {
+        return "Druida";
     }
 
 }
