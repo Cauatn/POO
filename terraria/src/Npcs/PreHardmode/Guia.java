@@ -23,4 +23,7 @@ public class Guia extends Npc implements Interacoes{
     public String falar() {
         return "Guia";
     }
+    @Override
+    public void defender() {
+    }
 }

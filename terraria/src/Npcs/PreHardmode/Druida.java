@@ -23,5 +23,8 @@ public class Druida extends Npc implements Interacoes{
     public String falar() {
         return "Druida";
     }
+    @Override
+    public void defender() {
+    }
 
 }

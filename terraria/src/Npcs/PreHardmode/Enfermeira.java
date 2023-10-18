@@ -19,4 +19,7 @@ public class Enfermeira extends Npc implements Interacoes{
     public String falar() {
         return "Enfermeira";
     }
+    @Override
+    public void defender() {
+    }
 }

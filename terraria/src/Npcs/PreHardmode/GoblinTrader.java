@@ -16,4 +16,7 @@ public class GoblinTrader extends Npc implements Interacoes{
     public String falar() {
         return "GoblinTrader";
     }
+    @Override
+    public void defender() {
+    }
 }

@@ -23,4 +23,7 @@ public class Zoologista extends Npc implements Interacoes{
     public String falar() {
         return "Zoologista";
     }
+    @Override
+    public void defender() {
+    }
 }
