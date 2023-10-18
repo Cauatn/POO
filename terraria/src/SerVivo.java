@@ -1,6 +1,6 @@
 package src;
 
-public abstract class SerVivo {
+public abstract class SerVivo extends Movimento{
     public int vida;
     private int dano;
     private int defesa;
