@@ -1,6 +1,6 @@
 package src.Personagem;
 
-public class Personagem extends Status{
+public abstract class Personagem extends Status{
     private String hair;
     private String skin;
     private String eyes;
