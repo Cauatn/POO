@@ -2,7 +2,7 @@ package src;
 
 import src.Personagem.Inventario;
 
-public class Player extends SerVivo{
+public abstract class Player extends SerVivo{
     private int Vida_Maxima;
     private int Mana_Maxima;
     private int Horas_De_Jogo;
