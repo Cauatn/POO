@@ -1,6 +1,6 @@
 package src;
 
-public class World {
+public abstract class World {
     private String Nome;
     private int Seed;
     private String Tamanho;
