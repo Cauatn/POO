@@ -1,8 +1,9 @@
 package src.Npcs.PreHardmode;
 
 import src.Npcs.Npc;
+import src.Npcs.Interacoes;
 
-public class GoblinTrader extends Npc{
+public class GoblinTrader extends Npc implements Interacoes{
 
     public GoblinTrader(){
         setAmbiente("Caverna");
@@ -11,10 +12,14 @@ public class GoblinTrader extends Npc{
         setKB_Resist(50);
         setVida(250);
     }
-    
-    public static void main(String [] args){
-        System.out.println("Oii");
+    @Override
+    public String falar() {
+        return "GoblinTrader";
     }
+    @Override
+    public void defender() {
+    }
+<<<<<<< HEAD
 
     @Override
     public void atacar(){
@@ -31,4 +36,6 @@ public class GoblinTrader extends Npc{
         
     }
 
+=======
+>>>>>>> e31ed13702c73a594580b60e53733383e08a9ae6
 }

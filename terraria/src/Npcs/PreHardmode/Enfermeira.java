@@ -1,8 +1,9 @@
 package src.Npcs.PreHardmode;
 
+import src.Npcs.Interacoes;
 import src.Npcs.Npc;
 
-public class Enfermeira extends Npc{
+public class Enfermeira extends Npc implements Interacoes{
 
     public Enfermeira(){
         setAmbiente("Qualquer ambiente");
@@ -12,10 +13,6 @@ public class Enfermeira extends Npc{
         setVida(250);
         setGosta("Traficante de armas");
         setOdeia("Zoologista");
-    }
-    
-    public static void main(String [] args){
-        System.out.println("Oii");
     }
 
     @Override
@@ -31,5 +28,10 @@ public class Enfermeira extends Npc{
     @Override
     public void movimentar(){
         
+    }
+
+    @Override
+    public String falar(){
+        return "asd";
     }
 }

@@ -10,19 +10,30 @@ public abstract class Npc extends SerVivo implements Comportamento{
     private String Ambiente;
     private String Gosta;
     private String Odeia;
-
+    
     Inventario Inventario;
+    
+    public String getAmbiente() {
+        return Ambiente;
+    }
+
+    public String getGosta() {
+        return Gosta;
+    }
+    public String getOdeia() {
+        return Odeia;
+     }
     
     public int getKB_Resist() {
         return KB_Resist;
     }
 
     public void setKB_Resist(int kB_Resist) {
-        KB_Resist = kB_Resist;
+        this.KB_Resist = kB_Resist;
     }
     
     public void setAmbiente(String ambiente) {
-        Ambiente = ambiente;
+        this.Ambiente = ambiente;
     }
 
     public void setOdeia(String odeia) {
@@ -32,6 +43,5 @@ public abstract class Npc extends SerVivo implements Comportamento{
     public void setGosta(String gosta) {
         Gosta = gosta;
     }
-
 
 }

@@ -1,8 +1,9 @@
 package src.Npcs.PreHardmode;
 
+import src.Npcs.Interacoes;
 import src.Npcs.Npc;
 
-public class Zoologista extends Npc{
+public class Zoologista extends Npc implements Interacoes{
 
     public Zoologista(){
         setAmbiente("Qualquer ambiente");

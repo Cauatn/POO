@@ -1,8 +1,9 @@
 package src.Npcs.PreHardmode;
 
+import src.Npcs.Interacoes;
 import src.Npcs.Npc;
 
-public class Druida extends Npc{
+public class Druida extends Npc implements Interacoes{
 
     public Druida(){
         setAmbiente("Jungle");
@@ -31,6 +32,11 @@ public class Druida extends Npc{
     @Override
     public void movimentar(){
         
+    }
+
+    @Override
+    public String falar(){
+        return "asd";
     }
 
 }
