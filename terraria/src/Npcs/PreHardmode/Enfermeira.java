@@ -31,7 +31,12 @@ public class Enfermeira extends Npc implements Interacoes{
     }
 
     @Override
-    public String falar(){
-        return "asd";
+    public void falar(){
+        return ;
+    }
+
+    @Override
+    public void LojaAtual(){
+
     }
 }

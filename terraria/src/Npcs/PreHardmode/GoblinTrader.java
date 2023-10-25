@@ -13,21 +13,15 @@ public class GoblinTrader extends Npc implements Interacoes{
         setVida(250);
     }
     @Override
-    public String falar() {
-        return "GoblinTrader";
+    public void falar() {
+        return ;
     }
     @Override
     public void defender() {
     }
-<<<<<<< HEAD
 
     @Override
     public void atacar(){
-
-    }
-
-    @Override
-    public void defender(){
 
     }
 
@@ -36,6 +30,9 @@ public class GoblinTrader extends Npc implements Interacoes{
         
     }
 
-=======
->>>>>>> e31ed13702c73a594580b60e53733383e08a9ae6
+    @Override
+    public void LojaAtual(){
+
+    }
+
 }
