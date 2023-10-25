@@ -29,4 +29,23 @@ public class LunaticCultist extends Boss {
     public String walk() {
         return "b";
     }
+
+    public String falar(String nome) {
+        return (nome + ", prepare-se para o seu fim!");
+    }
+
+    public String falar(int aleatorio) {
+        switch (aleatorio) {
+            case 1:
+                return "Você vai morrer";
+            case 2:
+                return "Como ousas me desafiar?";
+            case 3:
+                return "Você ainda está aqui?";
+            case 4:
+                return "Renda-se";
+            default:
+                return "Não me subestime";
+        }
+    }
 }
