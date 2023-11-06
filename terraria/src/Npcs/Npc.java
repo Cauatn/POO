@@ -11,7 +11,7 @@ public abstract class Npc extends SerVivo implements Comportamento{
     private String Gosta;
     private String Odeia;
     
-    Inventario Inventario;
+    protected Inventario Inventario;
     
     public String getAmbiente() {
         return Ambiente;

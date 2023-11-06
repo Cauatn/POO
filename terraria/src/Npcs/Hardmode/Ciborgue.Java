@@ -12,6 +12,7 @@ public class Ciborgue extends Npc implements Interacoes {
         setVida(250);
         setGosta("Princesa, Estilista, Pirata, SteamPunker");
         setOdeia("Mago");
+        Inventario = new Inventario(9, 0);
     }
 
     @Override

@@ -1,9 +1,10 @@
 package src.Npcs.PreHardmode;
 
 import src.Npcs.Npc;
-import src.Npcs.Interacoes;
+//import src.Npcs.Interacoes;
+import src.Personagem.Inventario;
 
-public class GoblinTrader extends Npc implements Interacoes{
+public class GoblinTrader extends Npc /*implements Interacoes*/{
 
     public GoblinTrader(){
         setAmbiente("Caverna");
@@ -11,6 +12,7 @@ public class GoblinTrader extends Npc implements Interacoes{
         setDefesa(15);
         setKB_Resist(50);
         setVida(250);
+        Inventario = new Inventario(9, 0);
     }
     @Override
     public void falar() {

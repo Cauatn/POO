@@ -12,6 +12,7 @@ public class Princesa extends Npc implements Interacoes {
         setVida(250);
         setGosta("Ninguem");
         setOdeia("Ninguem");
+        Inventario = new Inventario(9, 0);
     }
 
     @Override

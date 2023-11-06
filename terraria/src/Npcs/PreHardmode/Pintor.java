@@ -1,6 +1,7 @@
 package src.Npcs.PreHardmode;
 
 import src.Npcs.Npc;
+import src.Personagem.Inventario;
 
 public class Pintor extends Npc {
     
@@ -12,6 +13,7 @@ public class Pintor extends Npc {
         setVida(250);
         setGosta("Princesa, Zoologista, Princessa");
         setOdeia("Pintor");
+        Inventario = new Inventario(9, 0);
     }
     
     public static void main(String [] args){

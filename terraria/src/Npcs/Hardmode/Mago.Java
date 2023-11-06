@@ -12,6 +12,7 @@ public class Mago extends Npc implements Interacoes {
         setVida(250);
         setGosta("Princesa, Comerciante");
         setOdeia("Ciborgue");
+        Inventario = new Inventario(9, 0);
     }
 
     @Override

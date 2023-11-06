@@ -12,6 +12,7 @@ public class PapaiNoel extends Npc implements Interacoes {
         setVida(250);
         setGosta("Princesa,");
         setOdeia("Coletor de Taxas");
+        Inventario = new Inventario(9, 0);
     }
 
     @Override
