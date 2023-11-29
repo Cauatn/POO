@@ -11,37 +11,38 @@ public abstract class World {
     public String getNome() {
         return Nome;
     }
-    public static void setNome(String nome) {
+    public void setNome(String nome) {
         Nome = nome;
     }
     public int getSeed() {
         return Seed;
     }
-    public static void setSeed(int seed) {
+    public void setSeed(int seed) {
         Seed = seed;
     }
     public String getTamanho() {
         return Tamanho;
     }
-    public static void setTamanho(String tamanho) {
+    public void setTamanho(String tamanho) {
         Tamanho = tamanho;
     }
     public String getModo() {
         return Modo;
     }
-    public static void setModo(String modo) {
+    public void setModo(String modo) {
         Modo = modo;
     }
     public String getDisease() {
         return Disease;
     }
-    public static void setDisease(String disease) {
+    public void setDisease(String disease) {
         Disease = disease;
     }
     public String getData_Criação() {
         return Data_Criação;
     }
-    public static void setData_Criação(String data_Criação) {
+    public void setData_Criação(String data_Criação) {
         Data_Criação = data_Criação;
     }
+    
 }
