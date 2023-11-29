@@ -19,30 +19,15 @@ public class Druida extends Npc {
     public static void main(String [] args){
         System.out.println("Oii");
     }
-
-    @Override
-    public void atacar(){
-
-    }
-
-    @Override
-    public void defender(){
-
-    }
-
-    @Override
-    public void movimentar(){
-        
-    }
-
-    @Override
-    public void falar(){
-        return;
-    }
-
     @Override
     public void LojaAtual(){
 
+    }
+
+    @Override
+    public void emocional() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'emocional'");
     }
 
 }

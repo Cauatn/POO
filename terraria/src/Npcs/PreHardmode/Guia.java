@@ -4,9 +4,9 @@ package src.Npcs.PreHardmode;
 import src.Npcs.Npc;
 import src.Personagem.Inventario;
 
-public class Guia extends Npc /*implements Interacoes*/{
+public class Guia extends Npc /* implements Interacoes */ {
 
-    public Guia(){
+    public Guia() {
         setAmbiente("Qualquer ambiente");
         setDano(10);
         setDefesa(15);
@@ -16,33 +16,15 @@ public class Guia extends Npc /*implements Interacoes*/{
         setOdeia("Pintor");
         Inventario = new Inventario(9, 0);
     }
-    
-    public static void main(String [] args){
-        System.out.println("Oii");
-    }
 
     @Override
-    public void atacar(){
+    public void LojaAtual() {
 
     }
 
     @Override
-    public void defender(){
-
-    }
-
-    @Override
-    public void movimentar(){
-        
-    }
-
-    @Override
-    public void falar(){
-        return ;
-    }
-    
-    @Override
-    public void LojaAtual(){
-
+    public void emocional() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'emocional'");
     }
 }

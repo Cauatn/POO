@@ -4,9 +4,9 @@ package src.Npcs.PreHardmode;
 import src.Npcs.Npc;
 import src.Personagem.Inventario;
 
-public class Enfermeira extends Npc /*implements Interacoes*/{
+public class Enfermeira extends Npc /* implements Interacoes */ {
 
-    public Enfermeira(){
+    public Enfermeira() {
         setAmbiente("Qualquer ambiente");
         setDano(8);
         setDefesa(15);
@@ -18,27 +18,13 @@ public class Enfermeira extends Npc /*implements Interacoes*/{
     }
 
     @Override
-    public void atacar(){
+    public void LojaAtual() {
 
     }
 
     @Override
-    public void defender(){
-
-    }
-
-    @Override
-    public void movimentar(){
-        
-    }
-
-    @Override
-    public void falar(){
-        return ;
-    }
-
-    @Override
-    public void LojaAtual(){
-
+    public void emocional() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'emocional'");
     }
 }

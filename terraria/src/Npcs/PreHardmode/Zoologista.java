@@ -5,7 +5,7 @@ import src.Personagem.Inventario;
 
 public class Zoologista extends Npc {
 
-    public Zoologista(){
+    public Zoologista() {
         setAmbiente("Qualquer ambiente");
         setDano(8);
         setDefesa(15);
@@ -15,34 +15,16 @@ public class Zoologista extends Npc {
         setOdeia("Traficante de armas");
         Inventario = new Inventario(9, 0);
     }
-    
-    public static void main(String [] args){
-        System.out.println("Oii");
-    }
 
     @Override
-    public void atacar(){
+    public void LojaAtual() {
 
     }
 
     @Override
-    public void defender(){
-
-    }
-
-    @Override
-    public void movimentar(){
-        
-    }
-
-    @Override
-    public void falar(){
-        return ;
-    }
-
-    @Override
-    public void LojaAtual(){
-
+    public void emocional() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'emocional'");
     }
 
 }

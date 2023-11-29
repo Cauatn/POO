@@ -4,9 +4,9 @@ import src.Npcs.Npc;
 //import src.Npcs.Interacoes;
 import src.Personagem.Inventario;
 
-public class GoblinTrader extends Npc /*implements Interacoes*/{
+public class GoblinTrader extends Npc /* implements Interacoes */ {
 
-    public GoblinTrader(){
+    public GoblinTrader() {
         setAmbiente("Caverna");
         setDano(15);
         setDefesa(15);
@@ -14,27 +14,16 @@ public class GoblinTrader extends Npc /*implements Interacoes*/{
         setVida(250);
         Inventario = new Inventario(9, 0);
     }
-    @Override
-    public void falar() {
-        return ;
-    }
-    @Override
-    public void defender() {
-    }
 
     @Override
-    public void atacar(){
+    public void LojaAtual() {
 
     }
 
     @Override
-    public void movimentar(){
-        
-    }
-
-    @Override
-    public void LojaAtual(){
-
+    public void emocional() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'emocional'");
     }
 
 }
